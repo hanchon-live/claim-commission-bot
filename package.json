@@ -1,0 +1,17 @@
+{
+  "name": "commission-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "claim": "tsc index.ts && node index.js"
+  },
+  "dependencies": {
+    "@ethersproject/wallet": "^5.7.0",
+    "@evmos/proto": "=0.1.27",
+    "@evmos/transactions": "=0.2.13",
+    "@hanchon/evmos-ts-wallet": "^0.2.0",
+    "dotenv": "^16.0.3",
+    "typescript": "^5.0.4"
+  }
+}
